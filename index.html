@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API Project</title>    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-top">
+        </div>
+        <div class="header-bottom">
+            <h1>Teleport City Comparison</h1>
+        </div>
+    </header>
+    <section class="selection wrapper">
+        <div class="current-location drop-selection">
+            <label for="current-city">Current City:</label>
+            <select name="city" id="current-city" class="select-style">
+                
+            </select>
+        </div>
+        <div class="comparison-location drop-selection">
+            <label for="comparison-city">Compare to:</label>
+            <select name="city" id="comparison-city" class="select-style">
+                <option value="" selected disabled>Choose below:</option>
+                <!-- Generated from aq API -->
+            </select>
+        </div>
+        <button class="displayComparison">Compare</button>
+    </section>
+    <section class="display-location wrapper">
+        <div class="current-display location-divide">
+            <div class="city-photo">
+            </div>
+            <div class="city-details">
+            </div>
+        </div>
+        <div class="comparison-display location-divide">
+            <div class="city-photo">
+            </div>
+            <div class="city-details">    
+            </div>
+        </div>
+        <div class="scores">
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top wrapper">
+            <p>API by <a href="https://teleport.org/">www.teleport.org</a></p>
+            <small>Built by Steve Seki    ||   Inspired by example project: <a href="https://dannora.github.io/metropolist/">Metropolist</a></small>
+        </div>
+        <div class="footer-bottom">
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script>
+        
+    </script>
+        
+    <script src="script.js"></script>
+</body>
+</html>
